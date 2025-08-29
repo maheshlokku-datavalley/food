@@ -8,6 +8,6 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 8090
 
 
